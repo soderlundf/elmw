@@ -72,7 +72,7 @@ app.use(elmw({ out: myStream }));
 
 ## Context data
 
-The add custom data to the output, pass an object to `context` in the configuration.
+The add custom data to the output, pass additional data to `context` in the configuration.
 
 ```javascript
 app.use(elmw({ context: 'hello world' }));
